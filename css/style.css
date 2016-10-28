@@ -1,0 +1,201 @@
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+#navigationBar {
+    width: 1500px;
+    height: 45px;
+    /*border: 1px solid black;*/
+}
+
+#navigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navigationBar ul li {
+    float: left;
+}
+
+#navigationBar ul li a {
+    display: block;
+    color: white;
+    font-family: tahoma;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navigationBar ul li a:hover {
+    background-color: #111;
+}
+
+#wrapper {
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+    margin: 5px auto;
+    padding: 5px 5px 0px 5px;
+    border-radius: 4px;
+}
+
+#header {
+    width: 988px;
+    height: 130px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#mainContent {
+    /*width: 988px;
+    height: 637px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    border: 1px solid black;*/
+}
+
+#myImage {
+    width: 118px;
+    height: 118px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#mySummary {
+    width: 680px;
+    height: 118px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#myLinks {
+    width: 146px;
+    height: 118px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#myImage, #mySummary, #myLinks {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mySocialNetwork {
+    width: 140px;
+    height: 22px;
+    margin: 0px 0px 2px 0px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#tabs {
+    width: 988px;
+    height: 637px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#tabs-1, #tabs-2, #tabs-3, #tabs-4 {
+    padding: 5px;
+}
+
+#tabLeftSide {
+    width: 230px;
+    height: 575px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#tabRightSide {
+    width: 715px;
+    height: 575px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#tabLeftSide, #tabRightSide {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#projectSummary {
+    width: 700px;
+    height: 118px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#projectImage {
+    width: 700px;
+    height: 428px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.iconProject {
+    width: 220px;
+    height: 100px;
+    padding: 5px;
+    margin: 0px 0px 3px 0px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    width: 1500px;
+    height: 45px;
+    /*border: 1px solid black;*/
+    background-color: #333;
+}
+
+#footer p {
+    color: white;
+    font-family: tahoma;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
